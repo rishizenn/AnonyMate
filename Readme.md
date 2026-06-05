@@ -1,124 +1,115 @@
-# AnonyMate - Anonymous Peer Support Platform
+# AnonyMate – Anonymous Student Peer Support Platform
 
-A safe, anonymous platform for campus students to share concerns, seek peer support, and build a supportive community.
+## Overview
 
-## 📦 Prerequisites
+AnonyMate is a peer-to-peer anonymous support platform designed for students to share academic, mental health, social, and career-related concerns in a safe environment. The platform enables students to seek advice, connect with peers, and engage in meaningful conversations while maintaining anonymity.
 
-Before you begin, ensure you have the following installed:
+## Features
 
-1. **Node.js** (v14 or higher)
-   - Download from: https://nodejs.org/
-   - Verify installation: 
-     ```bash
-     node --version
-     npm --version
-     ```
+### Anonymous Posting
 
-2. **A code editor** (VS Code recommended)
-   - Download from: https://code.visualstudio.com/
+* Create posts without revealing personal identity
+* Category-based discussions:
 
----
+  * Academic
+  * Mental Health
+  * Social Life
+  * Career & Future
 
-## 🚀 Installation
+### Community Engagement
 
-### Windows Setup
+* React to posts using supportive reactions
+* View community responses and engagement metrics
+* Browse discussions across multiple categories
 
-#### Step 1: Create Project Folder
-```cmd
-# Navigate to your desired location (e.g., Desktop)
-cd Desktop
+### Anonymous Messaging
 
-# Create project folder
-mkdir anonymate-project
-cd anonymate-project
-```
+* Direct anonymous peer-to-peer conversations
+* Inbox for managing conversations
+* Safe communication without exposing user identity
 
-#### Step 2: Create React App
-```cmd
-# Create a new React application
-npx create-react-app anonymate
+### Authentication
 
-# Navigate into the project
-cd anonymate
-```
+* Firebase Anonymous Authentication
+* Secure user sessions
+* Protected database access
 
-#### Step 3: Install Dependencies
-```cmd
-# Install required packages
-npm install lucide-react firebase
-```
+## Tech Stack
 
-#### Step 4: Add Project Files
+### Frontend
 
-1. **Replace `src/App.js`:**
-   - Delete all content in `src/App.js`
-   - Copy the entire content from `AnonyMate.jsx`
-   - Paste into `src/App.js`
-   - Save the file
+* React.js
+* Vite
+* Tailwind CSS
 
-2. **Create `src/firebase.js`:**
-   - Create a new file: `src/firebase.js`
-   - Copy the entire content from `firebase.js`
-   - Paste into `src/firebase.js`
-   - Save the file
+### Backend & Database
 
-#### Step 5: Run the Application
-```cmd
+* Firebase Firestore
+* Firebase Authentication
+
+### Development Tools
+
+* JavaScript (ES6+)
+* Git
+* GitHub
+
+## Project Motivation
+
+Many students hesitate to discuss academic stress, mental health concerns, placement anxiety, homesickness, or social challenges due to fear of judgment. AnonyMate aims to create a safe and anonymous environment where students can seek support and connect with peers facing similar experiences.
+
+## Screenshots
+
+### Home Feed
+
+(Add screenshot here)
+
+### Create Post
+
+(Add screenshot here)
+
+### Anonymous Chat
+
+(Add screenshot here)
+
+### Inbox
+
+(Add screenshot here)
+
+## Installation
+
+1. Clone the repository
+
+git clone https://github.com/rishizenn/AnonyMate.git
+
+2. Navigate to project directory
+
+cd AnonyMate
+
+3. Install dependencies
+
+npm install
+
+4. Start development server
+
 npm run dev
-```
----
 
-### Linux/WSL Setup
+5. Open browser
 
-#### Step 1: Open Terminal and Create Project Folder
-```bash
-# Navigate to home directory
-cd ~
+http://localhost:5173
 
-# Create project folder
-mkdir anonymate-project
-cd anonymate-project
-```
+## Future Improvements
 
-#### Step 2: Create React App
-```bash
-# Create a new React application
-npx create-react-app anonymate
+* AI-powered crisis detection
+* Content moderation system
+* User reporting mechanism
+* Enhanced search and filtering
+* Mobile responsive optimization
+* Analytics dashboard
 
-# Navigate into the project
-cd anonymate
-```
+## Author
 
-#### Step 3: Install Dependencies
-```bash
-# Install required packages
-npm install lucide-react firebase
-```
+Rishi Jain
 
-#### Step 4: Add Project Files
+BITS Pilani
 
-1. **Replace `src/App.js`:**
-   ```bash
-   # Open the project in VS Code (if using WSL with VS Code)
-   code .
-   ```
-   - Delete all content in `src/App.js`
-   - Copy the entire content from `AnonyMate.jsx`
-   - Paste into `src/App.js`
-   - Save the file (Ctrl+S)
-
-2. **Create `src/firebase.js`:**
-   - Create a new file: `src/firebase.js`
-   - Copy the entire content from `firebase.js`
-   - Paste into `src/firebase.js`
-   - Save the file (Ctrl+S)
-
-
-#### Step 5: Run the Application
-```bash
-npm run dev
-```
-
----
-
-**Happy Supporting! 💙**
+GitHub: https://github.com/rishizenn
