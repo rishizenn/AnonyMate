@@ -61,19 +61,19 @@ Many students hesitate to discuss academic stress, mental health concerns, place
 
 ### Home Feed
 
-(Add screenshot here)
+![alt text](image.png)
 
 ### Create Post
 
-(Add screenshot here)
+![alt text](image-1.png)
 
 ### Anonymous Chat
 
-(Add screenshot here)
+![alt text](image-3.png)
 
 ### Inbox
 
-(Add screenshot here)
+![alt text](image-2.png)
 
 ## Installation
 
